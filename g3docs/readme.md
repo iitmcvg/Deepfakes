@@ -1,14 +1,14 @@
-#CVI project review
+# CVI project review
 
-##Deep Fakes
+## Deep Fakes
 
-##Questions
+## Questions
 
-###What
+### What
 
 This projects aims to build a fast face morphing system for images and video
 
-###Why
+### Why
 
 	This project is currently being done for an academic purpose.
 
@@ -18,7 +18,7 @@ This projects aims to build a fast face morphing system for images and video
 
 	2)Film Industry
 
-###How
+### How
 	So far we have experimented with the following things:
 
 	1) A model with 
@@ -35,11 +35,11 @@ This projects aims to build a fast face morphing system for images and video
 
 		iii)Perceptual Loss
 
-###Immediate Goals:
+### Immediate Goals:
 
 	1) Get it to work for videos
 
 		 We have a timeline for the sae and an idea of how it could be made to work
 
-###Long term Goals:
+### Long term Goals:
 	1)Once videos works perfectly. Return to the image domain and see what went wrong, Use some ideas from the video implementation we have in mind
