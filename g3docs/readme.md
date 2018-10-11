@@ -4,6 +4,8 @@
 
 ## Questions
 
+
+
 ### What
 
 This projects aims to build a fast face morphing system for images and video
@@ -17,8 +19,12 @@ This projects aims to build a fast face morphing system for images and video
 	1)Video Game Sprites
 
 	2)Film Industry
+	
+### How  
+	Our current plan to implement it similar to https://web.stanford.edu/~zollhoef/papers/SG2018_DeepVideo/paper.pdf
 
-### How
+
+### Experiments
 	So far we have experimented with the following things:
 
 	1) A model with 
