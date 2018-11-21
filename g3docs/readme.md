@@ -1,14 +1,16 @@
-## Deep Fake ( Deep Learning + Fake ) is a human image synthesis technique using artificial intelligence methods. This project aims to
-
-## develop a robust and fast face morphing system for images and video, using Autoencoders and GANs.
 
 # Deepfakes
 
 ## CVI Group- Arnav Anil Mhaske, Anand Uday Gokhale
 
+
+```
+Deep Fake ( Deep Learning + Fake ) is a human image synthesis technique using artificial intelligence methods. This project aims to develop a robust and fast face morphing system for images and video, using Autoencoders and GANs.
+```
+
 ```
 We aim to achieve the objective of the project by recreating the expressions
-and position of a person’s face with the style and features of another person
+and position of a personâ€™s face with the style and features of another person
 using CNNs.
 ```
 
@@ -30,23 +32,23 @@ input-
 ```
 MSE - This is a pixel by pixel difference squared and added up to give a single loss number.
 This works as a low pass filter and does not capture details, rather it tended to give an
-average estimate of the person’s face which did not vary much with our inputs.
+average estimate of the personâ€™s face which did not vary much with our inputs.
 ```
 ```
-Perceptual Loss - This uses a pre-trained model, namely vgg16’s weights to produce 3 losses
+Perceptual Loss - This uses a pre-trained model, namely vgg16â€™s weights to produce 3 losses
 : feature, style and tv loss. This worked better than MSE but still gave fairly blurry outputs.
 This however did not average the faces as MSE did.
 ```
 ```
-VAE : Variational Autoencoder’s didn’t reconstruct the image at all but instead gave an
+VAE : Variational Autoencoderâ€™s didnâ€™t reconstruct the image at all but instead gave an
 output that looked like an average of all the faces that were a part of the training set.
 ```
 ```
-GANs - Using GANs didn’t give us desired outputs. The discriminator trained way faster than
-the generator and the outputs didn’t resemble faces. This was because the network wasn’t
+GANs - Using GANs didnâ€™t give us desired outputs. The discriminator trained way faster than
+the generator and the outputs didnâ€™t resemble faces. This was because the network wasnâ€™t
 deep enough. Our experiments to integrate GANs into this network still continue.
 ```
-![results](https://github.com/iitmcvg/Deepfakes/blob/master/g3docs/reconstructed.jpeg)
+![results](https://github.com/iitmcvg/Deepfakes/blob/master/g3docs/reconstruction.jpeg)
 
 ```
 CURRENT AND FUTURE WORK:
@@ -56,7 +58,7 @@ head pose, eye gaze, and a face mask generated from the
 input.Currently we have a working model of the 3d head-pose
 generator.The results of this are shown below:
 ```
-![3Dpose](https://github.com/iitmcvg/Deepfakes/blob/master/g3docs/reconstructed.jpeg)
+![3Dpose](https://github.com/iitmcvg/Deepfakes/blob/master/g3docs/3d_head_pose.jpeg)
 
 
 
